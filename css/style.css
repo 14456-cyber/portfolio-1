@@ -465,3 +465,85 @@ margin:10px 0;
 line-height:1.8;
 
 }
+
+/* ==========================
+ACTIVITY
+========================== */
+
+.activity-section{
+
+padding-top:150px;
+
+}
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:35px;
+
+}
+
+.activity-card{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border-radius:25px;
+
+overflow:hidden;
+
+transition:.4s;
+
+border:1px solid rgba(255,255,255,.2);
+
+}
+
+.activity-card:hover{
+
+transform:translateY(-15px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.activity-card img{
+
+width:100%;
+
+height:230px;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.activity-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.activity-info{
+
+padding:25px;
+
+}
+
+.activity-info h3{
+
+margin-bottom:15px;
+
+color:#A9DFBF;
+
+}
+
+.activity-info p{
+
+line-height:1.8;
+
+}
