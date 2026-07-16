@@ -3,90 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | จิราพร สายแสน</title>
-
+    <title>Portfolio | นางสาว จิราพร สายแสน</title>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- Navbar -->
-<nav>
+<!--================ NAVBAR ================-->
+<nav class="navbar">
     <div class="logo">
-        PORTFOLIO
+    <i class="fa-solid fa-capsules"></i>
+        Portfolio
     </div>
-   <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="activities.html">Activities</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <ul>
+        <li><a class="active" href="index.html">หน้าแรก</a></li>
+        <li><a href="about.html">ประวัติส่วนตัว</a></li>
+        <li><a href="education.html">การศึกษา</a></li>
+        <li><a href="portfolio.html">ผลงาน</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
     </ul>
 </nav>
-<!-- Hero -->
+<!--================ HERO ================-->
 <section class="hero">
-<div class="hero-left">
-<h3>Hello, I'm</h3>
-<h1>จิราพร สายแสน</h1>
-<h2>Student Portfolio</h2>
-<p>
+<div class="hero-left" data-aos="fade-right">
+<h4>สวัสดีค่ะ 👋</h4>
+<h1>
+ฉันคือ
+<span>นางสาว จิราพร สายแสน</span>
+</h1>
+<h3>
 นักเรียนชั้นมัธยมศึกษาปีที่ 6/3
-มีความมุ่งมั่นที่จะศึกษาต่อในคณะทันตแพทยศาสตร์
-พร้อมพัฒนาตนเองทั้งด้านวิชาการและกิจกรรมอย่างต่อเนื่อง
-</p>
-<div class="buttons">
-<a href="profile.html" class="btn">
-ประวัติส่วนตัว
-</a>
-<a href="activities.html" class="btn2">
-ผลงาน
-</a>
-</div>
-</div>
-<div class="hero-right">
-<img src="images/profile.png" alt="Profile">
-</div>
-</section>
-<!-- About -->
-<section class="about">
-<h2>About Me</h2>
-<div class="about-box">
+</h3>
 <p>
-"ความฝันของฉันคือการเป็นทันตแพทย์ที่มีความรู้ ความสามารถ
-และมีจิตใจที่พร้อมดูแลผู้ป่วยอย่างเต็มที่"
+มุ่งมั่นศึกษาต่อคณะเภสัชศาสตร์
+สนใจด้านวิทยาศาสตร์ สุขภาพ
+และการพัฒนานวัตกรรมเพื่อสังคม
+</p>
+<div class="hero-button">
+<a href="portfolio.html" class="btn">
+ผลงานของฉัน
+</a>
+<a href="contact.html" class="btn-outline">
+ติดต่อ
+</a>
+</div>
+</div>
+<div class="hero-right" data-aos="fade-left">
+<img src="assets/profile/profile.png" alt="profile">
+</div>
+</section>
+<!--================ ABOUT PREVIEW ================-->
+<section class="about-home">
+<div class="section-title">
+<h2>About Me</h2>
+<p>ข้อมูลเบื้องต้น</p>
+</div>
+<div class="about-grid">
+<div class="card" data-aos="zoom-in">
+<i class="fa-solid fa-user"></i>
+<h3>ประวัติส่วนตัว</h3>
+<p>
+ข้อมูลส่วนตัว ความสนใจ และเป้าหมาย
 </p>
 </div>
-</section>
-<!-- Highlight -->
-<section class="cards">
-<div class="card">
-<i class="fa-solid fa-user-graduate"></i>
-<h3>Education</h3>
-<p>เส้นทางการศึกษาและผลการเรียน</p>
+<div class="card" data-aos="zoom-in">
+<i class="fa-solid fa-graduation-cap"></i>
+<h3>การศึกษา</h3>
+<p>
+ประวัติการศึกษาและผลการเรียน
+</p>
 </div>
-<div class="card">
+<div class="card" data-aos="zoom-in">
 <i class="fa-solid fa-award"></i>
-<h3>Activities</h3>
-<p>กิจกรรมและผลงานที่ภาคภูมิใจ</p>
+<h3>ผลงาน</h3>
+<p>
+กิจกรรม เกียรติบัตร และการแข่งขัน
+</p>
 </div>
-<div class="card">
-<i class="fa-solid fa-heart"></i>
-<h3>Dream</h3>
-<p>ก้าวสู่คณะทันตแพทยศาสตร์</p>
 </div>
 </section>
+<!--================ SKILL ================-->
+<section class="skills">
+<div class="section-title">
+<h2>Skills</h2>
+</div>
+<div class="skill-box">
+<div>
+<h4>HTML</h4>
+<div class="progress">
+<span style="width:95%"></span>
+</div
+</div>
+<div>
+<h4>CSS</h4>
+<div class="progress">
+<span style="width:90%"></span>
+</div>
+</div>
+<div>
+<h4>JavaScript</h4>
+<div class="progress">
+<span style="width:75%"></span>
+</div>
+</div>
+<div>
+<h4>Canva</h4>
+<div class="progress">
+<span style="width:90%"></span>
+</div>
+</div>
+</div>
+</section>
+<!--================ MOTTO ================-->
+<section class="quote">
+<div class="quote-box">
+<h2>
+"ความสำเร็จเริ่มต้นจากการไม่หยุดเรียนรู้"
+</h2>
+</div>
+</section>
+<!--================ FOOTER ================-->
 <footer>
+<div class="social"
+<a href="#">
+<i class="fab fa-facebook"></i>
+</a>
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
 <p>
 © 2026 Portfolio
-Designed by จิราพร สายแสน
 </p>
 </footer>
+<!--================ SCRIPT ================-->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
 <script src="js/script.js"></script>
 </body>
 </html>
+
