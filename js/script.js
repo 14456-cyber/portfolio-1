@@ -1,17 +1,33 @@
-// เปลี่ยนสี Navbar เมื่อเลื่อนหน้า
+// Navbar เปลี่ยนสีเมื่อเลื่อนหน้า
+window.addEventListener("scroll", function () {
+    const nav = document.querySelector("nav");
 
-window.addEventListener("scroll",function(){
+    if (window.scrollY > 50) {
+        nav.style.background = "rgba(6,40,29,0.95)";
+    } else {
+        nav.style.background = "rgba(255,255,255,.12)";
+    }
+});
 
-const nav=document.querySelector("nav");
+// Scroll Animation
+const cards = document.querySelectorAll(".card");
 
-if(window.scrollY>80){
+const observer = new IntersectionObserver((entries) => {
 
-nav.style.background="#0B3D2E";
+    entries.forEach(entry => {
 
-}else{
+        if(entry.isIntersecting){
 
-nav.style.background="rgba(255,255,255,.08)";
+            entry.target.classList.add("show");
 
-}
+        }
 
+    });
+
+},{
+    threshold:0.2
+});
+
+cards.forEach(card=>{
+    observer.observe(card);
 });
