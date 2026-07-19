@@ -3,248 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | จิราพร สายแสน</title>
 
+    <title>Portfolio | Jiraporn Saisaen</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/animation.css">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+<div id="particles"></div>
+
+<!--================ NAVBAR ================-->
 
 <nav>
 
     <div class="logo">
-        Pharma<span>Portfolio</span>
+        <i class="fa-solid fa-capsules"></i>
+        Portfolio
     </div>
 
     <ul>
-        <li><a href="index.html">หน้าหลัก</a></li>
-        <li><a href="profile.html">ประวัติ</a></li>
-        <li><a href="education.html">การศึกษา</a></li>
-        <li><a href="activity.html">ผลงาน</a></li>
-        <li><a href="contact.html">ติดต่อ</a></li>
+
+        <li><a class="active" href="index.html">Home</a></li>
+
+        <li><a href="profile.html">Profile</a></li>
+
+        <li><a href="education.html">Education</a></li>
+
+        <li><a href="activities.html">Activities</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+
     </ul>
 
 </nav>
 
-<!-- ================= HERO ================= -->
+
+<!--================ HERO ================-->
 
 <section class="hero">
 
-    <div class="hero-text">
+<div class="hero-left" data-aos="fade-right">
 
-        <h4>WELCOME TO MY PORTFOLIO</h4>
+<div class="welcome">
 
-        <h1>จิราพร สายแสน</h1>
-
-        <h2>Future Pharmacist 💚</h2>
-
-        <p>
-            สวัสดีค่ะ ยินดีต้อนรับสู่เว็บไซต์ Portfolio ของฉัน
-            เว็บไซต์นี้รวบรวมประวัติส่วนตัว ประวัติการศึกษา
-            ผลงาน กิจกรรม และความภาคภูมิใจ
-            เพื่อใช้ประกอบการยื่นเข้าศึกษาต่อ
-            คณะเภสัชศาสตร์
-        </p>
-
-        <a href="profile.html" class="btn">
-
-            เริ่มต้นชม Portfolio
-
-        </a>
-
-    </div>
-
-    <div class="hero-image">
-
-        <img src="images/profile.jpg" alt="Profile">
-
-    </div>
-
-</section>
-
-<!-- ================= WHY PHARMACY ================= -->
-
-<section>
-
-<h2 class="title">
-
-Why Pharmacy ?
-
-</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<i class="fa-solid fa-heart-pulse fa-3x"></i>
-
-<br><br>
-
-<h3>Passion</h3>
-
-<br>
-
-<p>
-
-ฉันมีความสนใจด้านวิทยาศาสตร์
-การดูแลสุขภาพ และการใช้ยาอย่างถูกต้อง
-จึงมีความตั้งใจที่จะศึกษาต่อ
-คณะเภสัชศาสตร์
-
-</p>
+HELLO
 
 </div>
 
-<div class="card">
+<h1>
 
-<i class="fa-solid fa-flask fa-3x"></i>
+I'm
 
-<br><br>
+<span>Jiraporn</span>
 
-<h3>Learning</h3>
+</h1>
 
-<br>
-
-<p>
-
-ชอบเรียนรู้สิ่งใหม่ ๆ
-โดยเฉพาะวิชาเคมี ชีววิทยา
-และวิทยาศาสตร์สุขภาพ
-พร้อมพัฒนาตนเองอยู่เสมอ
-
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-user-doctor fa-3x"></i>
-
-<br><br>
-
-<h3>Future Dream</h3>
-
-<br>
+<h2 id="typing"></h2>
 
 <p>
 
-มุ่งมั่นที่จะเป็นเภสัชกร
-ที่มีความรู้ ความสามารถ
-และมีจริยธรรมในการดูแลผู้ป่วย
-เพื่อสร้างประโยชน์ให้สังคม
+นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
+
+ผู้มีความมุ่งมั่นในการศึกษาต่อคณะเภสัชศาสตร์
+
+พร้อมพัฒนาความรู้ ทักษะ และประสบการณ์
+
+เพื่อก้าวสู่การเป็นเภสัชกรที่มีคุณภาพในอนาคต
 
 </p>
 
-</div>
-
-</div>
-
-</section>
-<!-- ================= MY STRENGTH ================= -->
-
-<section>
-
-    <h2 class="title">จุดเด่นของฉัน</h2>
-
-    <div class="grid">
-
-        <div class="card">
-            <h3>🧠 การเรียนรู้</h3>
-            <p>
-                เป็นคนชอบเรียนรู้สิ่งใหม่ มีความตั้งใจ
-                และพร้อมพัฒนาตนเองอยู่เสมอ
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>🤝 การทำงานร่วมกัน</h3>
-            <p>
-                สามารถทำงานเป็นทีม รับฟังความคิดเห็น
-                และมีความรับผิดชอบต่อหน้าที่
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>🎯 เป้าหมาย</h3>
-            <p>
-                มุ่งมั่นศึกษาต่อคณะเภสัชศาสตร์
-                และพัฒนาตนเองเพื่อเป็นเภสัชกรที่มีคุณภาพ
-            </p>
-        </div>
-
-    </div>
-
-</section>
-<!-- ================= MY GOAL ================= -->
-
-<section>
-
-<h2 class="title">
-My Goal
-</h2>
-
-<div class="card">
-
-<h2 style="color:#A9DFBF;margin-bottom:20px;">
-🎓 เป้าหมายของฉัน
-</h2>
-
-<p style="font-size:18px;line-height:2;">
-
-ฉันมีความมุ่งมั่นที่จะเข้าศึกษาต่อในคณะเภสัชศาสตร์
-เพราะเชื่อว่าความรู้ด้านเภสัชกรรมสามารถนำไปใช้
-ช่วยเหลือผู้คนและยกระดับคุณภาพชีวิตของสังคมได้
-
-<br><br>
-
-ฉันพร้อมพัฒนาตนเอง
-ทั้งด้านวิชาการ คุณธรรม จริยธรรม
-และทักษะการทำงาน
-เพื่อก้าวสู่การเป็นเภสัชกรที่ดีในอนาคต
-
-</p>
-
-</div>
-
-</section>
-<!-- ================= FOOTER ================= -->
-<footer>
-
-<h2>💚 Portfolio 2026</h2>
-
-<br>
-
-<p>
-
-Designed & Developed by
-
-<strong>จิราพร สายแสน</strong>
-
-</p>
-
-<br>
-
-<p>
-
-Future Pharmacist
-
-</p>
-
-<br>
-
-<div>
+<div class="buttons">
 
 <a href="profile.html" class="btn">
 
-View Profile
+Explore Portfolio
+
+</a>
+
+<a href="activities.html" class="btn-outline">
+
+My Activities
 
 </a>
 
 </div>
 
+</div>
+
+
+<div class="hero-right" data-aos="zoom-in">
+
+<div class="photo-ring">
+
+<div class="photo">
+
+<img src="img/profile.png">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!--================ Statistics ================-->
+
+<section class="stats">
+
+<div class="card">
+
+<h2>20+</h2>
+
+<p>Activities</p>
+
+</div>
+
+<div class="card">
+
+<h2>15+</h2>
+
+<p>Certificates</p>
+
+</div>
+
+<div class="card">
+
+<h2>4</h2>
+
+<p>Projects</p>
+
+</div>
+
+<div class="card">
+
+<h2>3.50+</h2>
+
+<p>GPA Goal</p>
+
+</div>
+
+</section>
+
+
+<!--================ ABOUT ================-->
+
+<section class="about">
+
+<h2 data-aos="fade-up">
+
+About Me
+
+</h2>
+
+<div class="glass" data-aos="fade-up">
+
+<p>
+
+"ฉันเชื่อว่าความรู้ด้านเภสัชศาสตร์สามารถช่วยยกระดับคุณภาพชีวิตของผู้คนได้
+
+จึงตั้งใจพัฒนาตนเองอย่างต่อเนื่อง ทั้งด้านวิชาการ การทำกิจกรรม
+
+และการทำงานร่วมกับผู้อื่น เพื่อก้าวสู่การเป็นเภสัชกรที่มีความรู้
+
+ความสามารถ และมีจิตสาธารณะ"
+
+</p>
+
+</div>
+
+</section>
+
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+<h2>
+
+Future Pharmacist
+
+</h2>
+
+<p>
+
+Designed by Jiraporn Saisaen
+
+</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-github"></i>
+
+<i class="fab fa-linkedin"></i>
+
+</div>
+
 </footer>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init();
+
+</script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
