@@ -140,27 +140,96 @@ My Journey
 <div class="content">
 
 <h3>2024</h3>
+.timeline{
 
-<p>เข้าร่วมกิจกรรมทางวิทยาศาสตร์และการแข่งขัน</p>
+padding:120px 9%;
 
-</div>
+}
 
-</div>
+.timeline h2{
 
-<div class="timeline-item">
+text-align:center;
 
-<div class="circle"></div>
+font-size:48px;
 
-<div class="content">
+margin-bottom:70px;
 
-<h3>2025</h3>
+}
 
-<p>เตรียม Portfolio เพื่อสมัครคณะเภสัชศาสตร์</p>
+.timeline-container{
 
-</div>
+position:relative;
 
-</div>
+max-width:900px;
 
-</div>
+margin:auto;
 
-</section>
+}
+
+.timeline-container::before{
+
+content:"";
+
+position:absolute;
+
+left:18px;
+
+top:0;
+
+width:4px;
+
+height:100%;
+
+background:#22c55e;
+
+}
+
+.timeline-item{
+
+display:flex;
+
+gap:30px;
+
+margin-bottom:55px;
+
+}
+
+.circle{
+
+width:40px;
+
+height:40px;
+
+border-radius:50%;
+
+background:#22c55e;
+
+box-shadow:
+
+0 0 25px #22c55e;
+
+flex-shrink:0;
+
+}
+
+.content{
+
+background:rgba(255,255,255,.08);
+
+padding:30px;
+
+border-radius:25px;
+
+flex:1;
+
+backdrop-filter:blur(15px);
+
+}
+
+.content h3{
+
+color:#7effb7;
+
+margin-bottom:12px;
+
+}
