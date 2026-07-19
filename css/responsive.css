@@ -108,3 +108,59 @@ grid-template-columns:1fr;
 }
 
 }
+
+<section class="timeline">
+
+<h2 data-aos="fade-up">
+
+My Journey
+
+</h2>
+
+<div class="timeline-container">
+
+<div class="timeline-item">
+
+<div class="circle"></div>
+
+<div class="content">
+
+<h3>2023</h3>
+
+<p>เริ่มค้นหาความสนใจด้านเภสัชศาสตร์</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="circle"></div>
+
+<div class="content">
+
+<h3>2024</h3>
+
+<p>เข้าร่วมกิจกรรมทางวิทยาศาสตร์และการแข่งขัน</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="circle"></div>
+
+<div class="content">
+
+<h3>2025</h3>
+
+<p>เตรียม Portfolio เพื่อสมัครคณะเภสัชศาสตร์</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
