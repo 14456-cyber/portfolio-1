@@ -976,3 +976,87 @@ nav ul li a{
 }
 
 }
+
+/*======================================
+WHY PHARMACY
+======================================*/
+
+.pharmacy{
+
+    padding:120px 9%;
+
+}
+
+.pharmacy h2{
+
+    text-align:center;
+
+    font-size:50px;
+
+    margin-bottom:60px;
+
+}
+
+.pharmacy-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+.pharmacy-card{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:30px;
+
+    padding:45px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.pharmacy-card:hover{
+
+    transform:translateY(-15px);
+
+    box-shadow:
+
+    0 0 40px rgba(74,222,128,.4);
+
+}
+
+.pharmacy-card i{
+
+    font-size:60px;
+
+    color:#63ffad;
+
+    margin-bottom:25px;
+
+}
+
+.pharmacy-card h3{
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+.pharmacy-card p{
+
+    line-height:1.8;
+
+    color:#d8d8d8;
+
+}
