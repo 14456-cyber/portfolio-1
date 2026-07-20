@@ -274,3 +274,123 @@ console.log("%cFuture Pharmacist Portfolio",
 "color:#31C48D;font-size:20px;font-weight:bold;");
 
 console.log("Developed with HTML CSS JavaScript");
+// =========================
+// CUSTOM CURSOR
+// =========================
+
+
+const cursor =
+document.querySelector(".custom-cursor");
+
+
+document.addEventListener(
+"mousemove",
+(e)=>{
+
+if(cursor){
+
+cursor.style.left =
+e.clientX+"px";
+
+cursor.style.top =
+e.clientY+"px";
+
+}
+
+});
+
+
+
+
+// =========================
+// SCROLL PROGRESS
+// =========================
+
+
+window.addEventListener(
+"scroll",
+()=>{
+
+
+const scrollTop =
+document.documentElement.scrollTop;
+
+
+const height =
+document.documentElement.scrollHeight -
+document.documentElement.clientHeight;
+
+
+const progress =
+(scrollTop/height)*100;
+
+
+const bar =
+document.querySelector(".scroll-progress");
+
+
+if(bar){
+
+bar.style.width =
+progress+"%";
+
+}
+
+
+});
+
+
+
+
+// =========================
+// BACK TO TOP
+// =========================
+
+
+const topButton =
+document.getElementById("topBtn");
+
+
+window.addEventListener(
+"scroll",
+()=>{
+
+
+if(topButton){
+
+if(window.scrollY > 500){
+
+topButton.style.display="block";
+
+}
+
+else{
+
+topButton.style.display="none";
+
+}
+
+}
+
+
+});
+
+
+
+if(topButton){
+
+topButton.onclick=()=>{
+
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+
+}
+
+}
