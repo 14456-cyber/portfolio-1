@@ -1,125 +1,632 @@
 <!DOCTYPE html>
+
 <html lang="th">
+
 <head>
+
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ผลงานและกิจกรรม | Portfolio</title>
+
+<title>Activities | Jiraporn Saisaen</title>
+
+
+<meta name="description"
+content="ผลงานและกิจกรรมของจิราพร สายแสน Portfolio เภสัชศาสตร์">
+
+
+
+<!-- Fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+
+
+<!-- Icons -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+
+
+<!-- AOS -->
+
+<link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+
+
+<!-- CSS -->
 
 <link rel="stylesheet" href="css/style.css">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
+
+
+
 <body>
 
-<nav>
 
-<div class="logo">
-Pharma<span>Portfolio</span>
+
+<!-- PRELOADER -->
+
+
+<div id="preloader">
+
+<div class="loader"></div>
+
 </div>
 
-<ul>
-<li><a href="index.html">หน้าหลัก</a></li>
-<li><a href="profile.html">ประวัติ</a></li>
-<li><a href="education.html">การศึกษา</a></li>
-<li><a href="activity.html">ผลงาน</a></li>
-<li><a href="contact.html">ติดต่อ</a></li>
+
+
+<div class="cursor-glow"></div>
+
+
+
+<div class="background-blur blur1"></div>
+
+<div class="background-blur blur2"></div>
+
+<div class="background-blur blur3"></div>
+
+
+
+
+
+
+<!-- ================= NAVBAR ================= -->
+
+
+<header>
+
+
+<nav class="navbar">
+
+
+<div class="logo">
+
+
+<i class="fa-solid fa-capsules"></i>
+
+
+<span>
+
+Future Pharmacist
+
+</span>
+
+
+</div>
+
+
+
+
+
+<ul class="nav-links">
+
+
+<li>
+
+<a href="index.html">
+
+หน้าหลัก
+
+</a>
+
+</li>
+
+
+
+
+<li>
+
+<a href="about.html">
+
+ประวัติ
+
+</a>
+
+</li>
+
+
+
+
+<li>
+
+<a href="education.html">
+
+การศึกษา
+
+</a>
+
+</li>
+
+
+
+
+<li>
+
+<a href="activities.html"
+class="active">
+
+ผลงาน
+
+</a>
+
+</li>
+
+
+
+
+<li>
+
+<a href="contact.html">
+
+ติดต่อ
+
+</a>
+
+</li>
+
+
+
 </ul>
+
+
+
+
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+
 
 </nav>
 
-<section class="activity-section">
 
-<h2 class="title">
-ผลงานและกิจกรรม
+</header>
+
+
+
+
+
+
+<!-- ================= HERO ================= -->
+
+
+<section class="hero">
+
+
+
+<div class="hero-left"
+data-aos="fade-right">
+
+
+
+<p class="hello">
+
+MY ACTIVITIES
+
+</p>
+
+
+
+
+<h1>
+
+My
+
+<span>
+
+Portfolio
+
+</span>
+
+</h1>
+
+
+
+
+<h2>
+
+Activities & Achievement
+
 </h2>
 
-<div class="gallery">
 
-<div class="activity-card">
 
-<img src="images/activity1.jpg">
 
-<div class="activity-info">
+<p class="hero-text">
 
-<h3>🧪 กิจกรรมวิทยาศาสตร์</h3>
+รวบรวมผลงาน
+กิจกรรม
+เกียรติบัตร
+และประสบการณ์ต่าง ๆ
+ที่สะท้อนความตั้งใจ
+ในการพัฒนาตนเอง
 
-<p>
-เข้าร่วมการแข่งขันและกิจกรรมด้านวิทยาศาสตร์
-เพื่อพัฒนาทักษะการคิดวิเคราะห์
 </p>
 
-</div>
+
+
+
+<a href="#works"
+class="btn">
+
+ดูผลงาน
+
+</a>
+
+
 
 </div>
 
-<div class="activity-card">
 
-<img src="images/activity2.jpg">
 
-<div class="activity-info">
 
-<h3>🏆 กิจกรรมจิตอาสา</h3>
+
+<div class="hero-right"
+data-aos="fade-left">
+
+
+
+<div class="profile-circle">
+
+
+<i class="fa-solid fa-trophy"
+
+style="
+font-size:150px;
+color:#0B5D3B;
+margin:auto;
+">
+
+</i>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+<!-- ================= WORK FILTER ================= -->
+
+
+<section class="works-section" id="works">
+
+
+<h2 data-aos="fade-up">
+
+My Works
+
+</h2>
+
+
+
+<div class="filter-buttons"
+data-aos="fade-up">
+
+
+<button class="filter active">
+
+All
+
+</button>
+
+
+<button class="filter">
+
+Science
+
+</button>
+
+
+<button class="filter">
+
+Activity
+
+</button>
+
+
+<button class="filter">
+
+Certificate
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- ================= WORK CARDS ================= -->
+
+
+<div class="work-container">
+
+
+
+
+
+<div class="work-card"
+data-category="science"
+data-aos="zoom-in">
+
+
+<div class="work-image">
+
+
+<img src="img/activity1.jpg"
+alt="Science Activity">
+
+
+</div>
+
+
+
+<div class="work-content">
+
+
+<h3>
+
+Science Project
+
+</h3>
+
 
 <p>
-เข้าร่วมโครงการจิตอาสาและบำเพ็ญประโยชน์
-เพื่อสังคม
+
+ผลงานด้านวิทยาศาสตร์
+การทดลอง
+และการประยุกต์ใช้ความรู้
+
 </p>
 
-</div>
+
+
+<a href="#">
+
+View More
+
+</a>
+
 
 </div>
 
-<div class="activity-card">
 
-<img src="images/activity3.jpg">
+</div>
 
-<div class="activity-info">
 
-<h3>📖 อบรมทางวิชาการ</h3>
+
+
+
+
+
+
+<div class="work-card"
+data-category="activity"
+data-aos="zoom-in"
+data-aos-delay="200">
+
+
+<div class="work-image">
+
+
+<img src="img/activity2.jpg"
+alt="School Activity">
+
+
+</div>
+
+
+
+<div class="work-content">
+
+
+<h3>
+
+School Activity
+
+</h3>
+
 
 <p>
-เข้าร่วมการอบรมและสัมมนา
-เพื่อเพิ่มพูนความรู้
+
+กิจกรรมภายในโรงเรียน
+การทำงานร่วมกับผู้อื่น
+และการพัฒนาทักษะ
+
 </p>
 
-</div>
+
+
+<a href="#">
+
+View More
+
+</a>
+
 
 </div>
 
-<div class="activity-card">
 
-<img src="images/activity4.jpg">
+</div>
 
-<div class="activity-info">
 
-<h3>🎖️ กิจกรรมโรงเรียน</h3>
+
+
+
+
+
+
+<div class="work-card"
+data-category="certificate"
+data-aos="zoom-in"
+data-aos-delay="400">
+
+
+<div class="work-image">
+
+
+<img src="img/certificate1.jpg"
+alt="Certificate">
+
+
+</div>
+
+
+
+<div class="work-content">
+
+
+<h3>
+
+Certificate
+
+</h3>
+
 
 <p>
-ร่วมกิจกรรมสำคัญของโรงเรียน
-และพัฒนาทักษะความเป็นผู้นำ
+
+เกียรติบัตรจากกิจกรรม
+และการเรียนรู้ต่าง ๆ
+
 </p>
 
-</div>
+
+
+<a href="#">
+
+View More
+
+</a>
+
 
 </div>
 
+
 </div>
+
+
+
+
+</div>
+
+
 
 </section>
 
-<footer>
 
-<h3>Portfolio 2026</h3>
 
-<p>Designed by จิราพร สายแสน</p>
 
-</footer>
 
-<script src="js/script.js"></script>
 
-</body>
-</html>
+
+<!-- ================= PROJECT SHOWCASE ================= -->
+
+
+<section class="preview">
+
+
+
+<div class="preview-box"
+data-aos="fade-up">
+
+
+<h2>
+
+Science Learning
+
+</h2>
+
+
+<p>
+
+พัฒนาความรู้ด้านวิทยาศาสตร์
+ผ่านการเรียน
+การทดลอง
+และการค้นคว้า
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="preview-box"
+data-aos="fade-up"
+data-aos-delay="200">
+
+
+<h2>
+
+Healthcare Interest
+
+</h2>
+
+
+<p>
+
+ศึกษาข้อมูลเกี่ยวกับสุขภาพ
+ยา
+และบทบาทของเภสัชกร
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="preview-box"
+data-aos="fade-up"
+data-aos-delay="300">
+
+
+<h2>
+
+Self Development
+
+</h2>
+
+
+<p>
+
+เข้าร่วมกิจกรรมเพื่อพัฒนาทักษะ
+ความคิดสร้างสรรค์
+และความรับผิดชอบ
+
+</p>
+
+
+</div>
+
+
+
+</section>
