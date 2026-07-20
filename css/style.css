@@ -2287,6 +2287,250 @@ translateY(-700px);
 opacity:0;
 
 }
+/* =====================================
+        AURORA BACKGROUND
+===================================== */
 
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+width:600px;
+
+height:600px;
+
+background:
+
+radial-gradient(
+circle,
+rgba(126,255,203,.25),
+transparent 70%
+);
+
+top:-200px;
+
+right:-200px;
+
+filter:blur(40px);
+
+z-index:-2;
+
+animation:aurora 10s infinite alternate;
+
+}
+
+
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+width:500px;
+
+height:500px;
+
+background:
+
+radial-gradient(
+circle,
+rgba(0,255,150,.2),
+transparent 70%
+);
+
+bottom:-150px;
+
+left:-150px;
+
+filter:blur(50px);
+
+z-index:-2;
+
+animation:aurora 12s infinite alternate-reverse;
+
+}
+
+
+
+
+@keyframes aurora{
+
+
+0%{
+
+transform:translate(0,0);
+
+}
+
+
+100%{
+
+transform:translate(80px,50px);
+
+}
+
+
+}
+
+
+
+
+/* =====================================
+        CUSTOM CURSOR
+===================================== */
+
+
+.custom-cursor{
+
+position:fixed;
+
+width:35px;
+
+height:35px;
+
+border:
+
+2px solid #9affd0;
+
+border-radius:50%;
+
+pointer-events:none;
+
+z-index:9999;
+
+transform:translate(-50%,-50%);
+
+transition:.15s;
+
+}
+
+
+
+
+
+/* =====================================
+        SCROLL BAR
+===================================== */
+
+
+.scroll-progress{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:5px;
+
+width:0%;
+
+background:
+
+linear-gradient(
+90deg,
+#7effc8,
+#00d97e
+);
+
+z-index:9999;
+
+}
+
+
+
+
+/* =====================================
+        BACK TO TOP
+===================================== */
+
+
+#topBtn{
+
+position:fixed;
+
+right:30px;
+
+bottom:30px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:
+
+linear-gradient(
+135deg,
+#0B5D3B,
+#31C48D
+);
+
+color:white;
+
+font-size:20px;
+
+cursor:pointer;
+
+display:none;
+
+z-index:999;
+
+box-shadow:
+
+0 10px 30px rgba(0,0,0,.3);
+
+}
+
+
+
+#topBtn:hover{
+
+transform:
+
+translateY(-8px);
+
+}
+
+
+
+
+/* =====================================
+        REVEAL
+===================================== */
+
+
+.reveal{
+
+opacity:0;
+
+transform:
+
+translateY(60px);
+
+transition:
+
+1s;
+
+}
+
+
+
+.reveal.active{
+
+opacity:1;
+
+transform:
+
+translateY(0);
+
+}
 
 }
