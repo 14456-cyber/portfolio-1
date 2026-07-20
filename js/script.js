@@ -394,3 +394,28 @@ behavior:"smooth"
 }
 
 }
+// MOBILE MENU
+
+
+const menuBtn =
+document.querySelector(".menu-btn");
+
+
+const nav =
+document.querySelector(".nav-links");
+
+
+
+if(menuBtn){
+
+
+menuBtn.onclick=()=>{
+
+
+nav.classList.toggle("active");
+
+
+}
+
+
+}
