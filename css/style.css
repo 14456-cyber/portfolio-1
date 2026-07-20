@@ -1411,3 +1411,79 @@ transition:.3s;
 /*=========================================
           END CSS
 =========================================*/
+/* Mobile Menu */
+
+.nav-links.show{
+
+display:flex;
+
+position:absolute;
+
+top:90px;
+
+left:5%;
+
+width:90%;
+
+flex-direction:column;
+
+background:rgba(5,45,30,.95);
+
+backdrop-filter:blur(20px);
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+}
+
+/* Active Menu */
+
+.nav-links a.active{
+
+color:#9EFFD5;
+
+font-weight:700;
+
+}
+
+/* Ripple */
+
+.btn,
+.btn-outline{
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.ripple{
+
+position:absolute;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.5);
+
+transform:scale(0);
+
+animation:ripple .6s linear;
+
+pointer-events:none;
+
+}
+
+@keyframes ripple{
+
+to{
+
+transform:scale(4);
+
+opacity:0;
+
+}
+
+}
