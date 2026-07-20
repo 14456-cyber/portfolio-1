@@ -4,51 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio | Jiraporn Saisaen</title>
+    <title>Jiraporn Saisaen | Future Pharmacist</title>
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Portfolio ของจิราพร สายแสน สำหรับยื่นเข้าศึกษาต่อคณะเภสัชศาสตร์">
 
-    <!-- Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- AOS Animation -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animation.css">
 </head>
 
 <body>
 
-<div id="particles"></div>
+<!--================ PRELOADER ================-->
 
-<!--================ NAVBAR ================-->
+<div id="preloader">
+    <div class="loader"></div>
+</div>
 
-<nav>
+<!--================ CURSOR GLOW ================-->
 
-    <div class="logo">
-        <i class="fa-solid fa-capsules"></i>
-        Portfolio
-    </div>
+<div class="cursor-glow"></div>
 
-    <ul>
+<!--================ BACKGROUND ================-->
 
-        <li><a class="active" href="index.html">Home</a></li>
+<div class="background-blur blur1"></div>
+<div class="background-blur blur2"></div>
+<div class="background-blur blur3"></div>
 
-        <li><a href="profile.html">Profile</a></li>
+<!--================ HEADER ================-->
 
-        <li><a href="education.html">Education</a></li>
+<header>
 
-        <li><a href="activities.html">Activities</a></li>
+<nav class="navbar">
 
-        <li><a href="contact.html">Contact</a></li>
+<div class="logo">
 
-    </ul>
+<i class="fa-solid fa-capsules"></i>
+
+<span>Future Pharmacist</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">หน้าหลัก</a></li>
+
+<li><a href="about.html">ประวัติ</a></li>
+
+<li><a href="education.html">การศึกษา</a></li>
+
+<li><a href="activities.html">ผลงาน</a></li>
+
+<li><a href="contact.html">ติดต่อ</a></li>
+
+</ul>
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
 
 </nav>
 
+</header>
 
 <!--================ HERO ================-->
 
@@ -56,45 +88,48 @@
 
 <div class="hero-left" data-aos="fade-right">
 
-<div class="welcome">
-
-HELLO
-
-</div>
+<p class="hello">
+HELLO THERE
+</p>
 
 <h1>
 
 I'm
 
-<span>Jiraporn</span>
+<span>
+
+จิราพร สายแสน
+
+</span>
 
 </h1>
 
-<h2 id="typing"></h2>
+<h2>
 
-<p>
+<span id="typing"></span>
 
-นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
+</h2>
 
-ผู้มีความมุ่งมั่นในการศึกษาต่อคณะเภสัชศาสตร์
+<p class="hero-text">
 
-พร้อมพัฒนาความรู้ ทักษะ และประสบการณ์
-
-เพื่อก้าวสู่การเป็นเภสัชกรที่มีคุณภาพในอนาคต
+เว็บไซต์ Portfolio สำหรับการศึกษาต่อ
+คณะเภสัชศาสตร์
+นำเสนอข้อมูลส่วนตัว ผลงาน
+กิจกรรม และความสามารถ
 
 </p>
 
-<div class="buttons">
+<div class="hero-button">
 
-<a href="profile.html" class="btn">
+<a href="about.html" class="btn">
 
-Explore Portfolio
+รู้จักฉัน
 
 </a>
 
 <a href="activities.html" class="btn-outline">
 
-My Activities
+ผลงาน
 
 </a>
 
@@ -102,16 +137,12 @@ My Activities
 
 </div>
 
+<div class="hero-right"
+data-aos="fade-left">
 
-<div class="hero-right" data-aos="zoom-in">
+<div class="profile-circle">
 
-<div class="photo-ring">
-
-<div class="photo">
-
-<img src="img/profile.png">
-
-</div>
+<img src="img/profile.jpg" alt="Profile">
 
 </div>
 
@@ -119,120 +150,155 @@ My Activities
 
 </section>
 
+<!--================ FEATURE ================-->
 
-<!--================ Statistics ================-->
+<section class="feature">
 
-<section class="stats">
+<div class="card"
+data-aos="zoom-in">
 
-<div class="card">
+<i class="fa-solid fa-user-doctor"></i>
 
-<h2>20+</h2>
+<h3>
 
-<p>Activities</p>
+Future Pharmacist
 
-</div>
-
-<div class="card">
-
-<h2>15+</h2>
-
-<p>Certificates</p>
-
-</div>
-
-<div class="card">
-
-<h2>4</h2>
-
-<p>Projects</p>
-
-</div>
-
-<div class="card">
-
-<h2>3.50+</h2>
-
-<p>GPA Goal</p>
-
-</div>
-
-</section>
-
-
-<!--================ ABOUT ================-->
-
-<section class="about">
-
-<h2 data-aos="fade-up">
-
-About Me
-
-</h2>
-
-<div class="glass" data-aos="fade-up">
+</h3>
 
 <p>
 
-"ฉันเชื่อว่าความรู้ด้านเภสัชศาสตร์สามารถช่วยยกระดับคุณภาพชีวิตของผู้คนได้
+มุ่งมั่นศึกษาด้านเภสัชศาสตร์
+เพื่อดูแลสุขภาพของประชาชน
 
-จึงตั้งใจพัฒนาตนเองอย่างต่อเนื่อง ทั้งด้านวิชาการ การทำกิจกรรม
+</p>
 
-และการทำงานร่วมกับผู้อื่น เพื่อก้าวสู่การเป็นเภสัชกรที่มีความรู้
+</div>
 
-ความสามารถ และมีจิตสาธารณะ"
+<div class="card"
+data-aos="zoom-in"
+data-aos-delay="200">
+
+<i class="fa-solid fa-flask"></i>
+
+<h3>
+
+Science
+
+</h3>
+
+<p>
+
+ชื่นชอบวิชาเคมี ชีววิทยา
+และการทดลองทางวิทยาศาสตร์
+
+</p>
+
+</div>
+
+<div class="card"
+data-aos="zoom-in"
+data-aos-delay="400">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<h3>
+
+Healthcare
+
+</h3>
+
+<p>
+
+ต้องการเป็นบุคลากรทางการแพทย์
+ที่ช่วยเหลือสังคม
 
 </p>
 
 </div>
 
 </section>
-<!--================ WHY PHARMACY ================-->
 
-<section class="pharmacy">
+<!--================ PREVIEW ================-->
 
-    <h2 data-aos="fade-up">
-        Why Pharmacy?
-    </h2>
+<section class="preview">
 
-    <div class="pharmacy-grid">
+<div class="preview-box"
+data-aos="fade-up">
 
-        <div class="pharmacy-card" data-aos="fade-up">
+<h2>
 
-            <i class="fa-solid fa-capsules"></i>
+ประวัติส่วนตัว
 
-            <h3>Passion</h3>
+</h2>
 
-            <p>
-                มีความสนใจด้านยา การดูแลสุขภาพ และการพัฒนาคุณภาพชีวิตของผู้ป่วย
-            </p>
+<p>
 
-        </div>
+ข้อมูลส่วนตัว
+ความสามารถ
+งานอดิเรก
+เป้าหมายในอนาคต
 
-        <div class="pharmacy-card" data-aos="fade-up" data-aos-delay="150">
+</p>
 
-            <i class="fa-solid fa-flask"></i>
+<a href="about.html">
 
-            <h3>Science</h3>
+อ่านเพิ่มเติม
 
-            <p>
-                ชื่นชอบวิทยาศาสตร์ เคมี และชีววิทยา พร้อมเรียนรู้สิ่งใหม่อยู่เสมอ
-            </p>
+</a>
 
-        </div>
+</div>
 
-        <div class="pharmacy-card" data-aos="fade-up" data-aos-delay="300">
+<div class="preview-box"
+data-aos="fade-up"
+data-aos-delay="150">
 
-            <i class="fa-solid fa-heart-pulse"></i>
+<h2>
 
-            <h3>Healthcare</h3>
+การศึกษา
 
-            <p>
-                มุ่งหวังเป็นส่วนหนึ่งในการดูแลสุขภาพและสร้างประโยชน์แก่สังคม
-            </p>
+</h2>
 
-        </div>
+<p>
 
-    </div>
+เส้นทางการศึกษา
+และเป้าหมาย
+ในการเข้าศึกษาต่อ
+
+</p>
+
+<a href="education.html">
+
+อ่านเพิ่มเติม
+
+</a>
+
+</div>
+
+<div class="preview-box"
+data-aos="fade-up"
+data-aos-delay="300">
+
+<h2>
+
+ผลงาน
+
+</h2>
+
+<p>
+
+กิจกรรม
+เกียรติบัตร
+โครงการต่าง ๆ
+
+</p>
+
+<a href="activities.html">
+
+อ่านเพิ่มเติม
+
+</a>
+
+</div>
 
 </section>
 
@@ -248,35 +314,41 @@ Future Pharmacist
 
 <p>
 
-Designed by Jiraporn Saisaen
+© 2026 Jiraporn Saisaen
 
 </p>
 
 <div class="social">
 
-<i class="fab fa-facebook"></i>
+<a href="#"><i class="fab fa-facebook"></i></a>
 
-<i class="fab fa-instagram"></i>
+<a href="#"><i class="fab fa-instagram"></i></a>
 
-<i class="fab fa-github"></i>
+<a href="#"><i class="fab fa-github"></i></a>
 
-<i class="fab fa-linkedin"></i>
+<a href="#"><i class="fas fa-envelope"></i></a>
 
 </div>
 
 </footer>
 
+<!--================ JS ================-->
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script>
 
-AOS.init();
+AOS.init({
+
+duration:1000,
+
+once:false
+
+});
 
 </script>
 
 <script src="js/script.js"></script>
 
 </body>
-
 </html>
