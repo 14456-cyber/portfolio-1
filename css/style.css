@@ -3177,3 +3177,12 @@ border-radius:25px;
 object-fit:cover;
 
 }
+.school-logo{
+
+width:140px;
+
+height:140px;
+
+object-fit:contain;
+
+}
