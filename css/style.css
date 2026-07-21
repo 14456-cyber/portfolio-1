@@ -3166,3 +3166,14 @@ object-fit:cover;
 border-radius:50%;
 
 }
+.about-img{
+
+width:350px;
+
+height:350px;
+
+border-radius:25px;
+
+object-fit:cover;
+
+}
