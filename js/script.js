@@ -18,25 +18,11 @@ AOS.init({
 // =========================
 
 window.addEventListener("load", () => {
-
     const preloader = document.getElementById("preloader");
-
-    if(preloader){
-
-        preloader.style.opacity = "0";
-
-        preloader.style.visibility = "hidden";
-
-        setTimeout(()=>{
-
-            preloader.remove();
-
-        },600);
-
+    if (preloader) {
+        preloader.style.display = "none";
     }
-
 });
-
 // =========================
 // TYPING EFFECT
 // =========================
