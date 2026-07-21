@@ -94,6 +94,8 @@ border-radius:30px;
 ========================= */
 
 #preloader{
+    display:none;
+}
 
 position:fixed;
 
